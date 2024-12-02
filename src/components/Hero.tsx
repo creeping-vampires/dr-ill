@@ -12,9 +12,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl sm:text-9xl font-medium mb-4 leading-tight"
           >
-            You
+            You Need
             <br />
-            Need Help!
+            Help 🫵
           </motion.h1>
           <div>
             <motion.h2
