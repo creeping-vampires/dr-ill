@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4461F2;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", serif;
+  }
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #4461F2 0%, #7E87FF 100%);
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.gradient-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(68, 97, 242, 0.25);
+}
