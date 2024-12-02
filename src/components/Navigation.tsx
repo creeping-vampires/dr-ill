@@ -32,7 +32,7 @@ const Navigation = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="gradient-button text-white px-6 py-2.5 text-base font-bold"
+            className="gradient-button text-white  px-6 py-2.5 xs:px-1 xs:py-1 text-base font-bold"
           >
             Buy Now
           </motion.button>

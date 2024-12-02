@@ -20,7 +20,7 @@ body {
 
 .gradient-button {
   background: linear-gradient(90deg, #4461F2 0%, #7E87FF 100%);
-  border-radius: 100px;
+  border-radius: 25px;
   transition: all 0.3s ease;
 }
 
