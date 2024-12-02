@@ -5,38 +5,41 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="pt-32 pb-20 px-4">
-      <div className="max-w-7xl mx-auto px-4 py-6 md:flex xs:flex-col  xs:justify-center justify-between items-center">
-        <div>
+      <div className="max-w-7xl mx-auto px-4 py-6 md:flex xs:flex-col  xs:justify-center justify-between">
+        <div className="flex flex-col justify-between h-full gap-8">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl sm:text-8xl font-bold mb-4 leading-tight"
+            className="text-3xl sm:text-9xl font-medium mb-4 leading-tight"
           >
             You
             <br />
             Need Help!
           </motion.h1>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="text-3xl sm:text-4xl font-bold mb-4"
-          >
-            Meet Dr. Ill
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="text-lg sm:text-xl mb-8 max-w-xl"
-          >
-            He is the world's first AI therapist, dedicated to helping you
-            recover from rugs, cope with FOMO, and finally stop panic-selling
-            your life choices.
-          </motion.p>
+          <div>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="text-3xl sm:text-6xl font-regular mb-4"
+            >
+              Meet Dr. Ill
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="text-lg sm:text-2xl mb-8 max-w-xl"
+            >
+              He is the world's first AI therapist, dedicated to helping you
+              recover from rugs, cope with FOMO, and finally stop panic-selling
+              your life choices.
+            </motion.p>
+          </div>
           <motion.button
             whileHover="hover"
-            className="gradient-button text-white px-8 py-4 text-xl sm:text-2xl  flex  items-center gap-5 group"
+            className="gradient-button text-white px-8 py-4 text-xl sm:text-2xl  flex  items-center gap-6 group"
+            style={{ maxWidth: 'fit-content' }} // Ensures the button only takes up necessary space
           >
             Start Your Recovery
             <motion.div

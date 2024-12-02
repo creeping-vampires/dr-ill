@@ -5,9 +5,16 @@ import CopyButton from "./CopyButton";
 
 const Navigation = () => {
   return (
-    <nav className="fixed w-full top-0  bg-[#D9D9D9] z-50 border-b ">
+    <nav className="fixed w-full top-0  bg-[#FFFEFA] ">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="text-2xl font-bold">Dr. Ill Institute</div>
+        <div className="flex flex-col">
+          <span className="text-2xl font-bold text-black bg-clip-text text-transparent">
+            Dr. Ill Institute
+          </span>
+          <span className="text-xs text-gray-500 group-hover:text-blue-600 transition-colors">
+            A degen's therapist
+          </span>
+        </div>
         <div className="flex items-center gap-2 sm:gap-4">
           <a
             href="https://t.me/drilltoken"
