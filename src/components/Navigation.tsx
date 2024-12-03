@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex flex-col">
           <span className="text-2xl font-bold text-black bg-clip-text">
-            Dr. Ill Institute
+            Dr. ILL Institute
           </span>
           <span className="text-xs text-gray-500 group-hover:text-blue-600 transition-colors">
             A degen's therapist
