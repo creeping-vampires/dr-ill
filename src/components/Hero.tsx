@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="pt-32 pb-20 px-4">
-      <div className="max-w-7xl mx-auto px-4 py-6 md:flex xs:flex-col  xs:justify-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-6 md:flex xs:flex-col xs:justify-center justify-between items-center">
         <div className="flex flex-col justify-between h-full gap-8">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -63,23 +63,14 @@ const Hero = () => {
             </motion.button>
           </motion.a>
         </div>
-        <div className="relative ">
-          {/* <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4 }}
-            className="aspect-[3/2.5] bg-gray-200 rounded-3xl overflow-hidden"
-          > */}
-          <img
-            src="/dr-header.png"
-            alt="Dr. Ill"
-            // style={{ height: 480 }}
-            // className="w-full h-80 object-cover"
+        <div className="relative flex justify-center">
+          <video
+            src="/drIllvideo2.mp4"
+            autoPlay
+            loop
+            controls
+            className="w-full h-[480px] object-cover"
           />
-          {/* </motion.div> */}
-          {/* <div className="absolute bottom-4 right-4 bg-white/80 backdrop-blur px-3 py-1 rounded-lg">
-            <span className="text-sm">416 587</span>
-          </div> */}
         </div>
       </div>
     </div>
