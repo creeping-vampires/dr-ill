@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className="min-h-screen bg-[#FFFEFA]">
       <Navigation />
       <Hero/>
-      <section className="py-20 px-4 bg-white mx-4 md:mx-0">
+      {/* <section className="py-20 px-4 bg-white mx-4 md:mx-0">
         <div className="max-w-[60%] mx-auto text-center">
           <h2 className="text-5xl font-medium mb-6">ABOUT DR. ILL</h2>
           <br/>
@@ -25,7 +25,7 @@ const HomePage = () => {
             Soon, he'll launch exclusive shows like "The Daily Degen," collaborating with real traders, fellow AI agents, and his community to build his media empire.
           </p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
