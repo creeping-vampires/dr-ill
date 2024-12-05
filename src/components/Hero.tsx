@@ -36,26 +36,32 @@ const Hero = () => {
               your life choices.
             </motion.p>
           </div>
-          <motion.button
-            whileHover="hover"
-            className="gradient-button text-white px-8 py-4 text-xl sm:text-2xl  flex  items-center gap-6 group"
-            style={{ maxWidth: 'fit-content' }} // Ensures the button only takes up necessary space
+          <motion.a
+            href="https://t.me/Dr_Ill_bot"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Start Your Recovery
-            <motion.div
-              variants={{
-                hover: {
-                  x: 10,
-                  transition: {
-                    duration: 0.3,
-                    ease: "easeInOut",
-                  },
-                },
-              }}
+            <motion.button
+              whileHover="hover"
+              className="gradient-button text-white px-8 py-4 text-xl sm:text-2xl flex items-center gap-6 group"
+              style={{ maxWidth: 'fit-content' }}
             >
-              <ArrowRight className="w-6 h-6" />
-            </motion.div>
-          </motion.button>
+              Start Your Recovery
+              <motion.div
+                variants={{
+                  hover: {
+                    x: 10,
+                    transition: {
+                      duration: 0.3,
+                      ease: "easeInOut",
+                    },
+                  },
+                }}
+              >
+                <ArrowRight className="w-6 h-6" />
+              </motion.div>
+            </motion.button>
+          </motion.a>
         </div>
         <div className="relative ">
           {/* <motion.div

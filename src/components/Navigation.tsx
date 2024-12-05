@@ -25,7 +25,7 @@ const Navigation = () => {
             <Send className="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
           <a
-            href="https://twitter.com/drilltoken"
+            href="https://x.com/Dr_illxbt"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 hover:bg-gray-100 rounded-lg"
