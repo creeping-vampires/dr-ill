@@ -17,7 +17,7 @@ const Navigation = () => {
         </div>
         <div className="flex items-center gap-2 sm:gap-4">
           <a
-            href="https://t.me/drilltoken"
+            href="https://t.me/Dr_Ill_bot"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 hover:bg-gray-100 rounded-lg"
