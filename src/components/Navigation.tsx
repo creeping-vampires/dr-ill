@@ -5,7 +5,7 @@ import CopyButton from "./CopyButton";
 
 const Navigation = () => {
   return (
-    <nav className="fixed w-full top-0  bg-[#FFFEFA] ">
+    <nav className="w-full top-0  bg-[#FFFEFA] ">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex flex-col">
           <span className="text-2xl font-bold text-black bg-clip-text">

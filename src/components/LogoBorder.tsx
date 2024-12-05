@@ -31,7 +31,7 @@ const LogoBorder: React.FC<LogoBorderProps> = ({ position }) => {
     >
       <motion.div className="flex justify-center items-center" style={{ x }}>
         <div
-          className="flex space-x-2 text-gray-800 text-lg "
+          className="flex space-x-2 text-gray-800 text-2xl "
           style={{ color: "black", fontWeight: 600, opacity: 0.5 }}
         >
           {logos.map((logo, index) => (
