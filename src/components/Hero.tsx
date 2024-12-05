@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="pt-32 pb-20 px-4">
-      <div className="max-w-7xl mx-auto px-4 py-6 md:flex xs:flex-col xs:justify-center justify-between items-center">
+    <div className="pt-0 pb-0 px-2">
+      <div className="max-w-7xl mx-auto px-2 py-6 md:flex xs:flex-col xs:justify-center justify-between items-center">
         <div className="flex flex-col justify-between h-full gap-8">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ const Hero = () => {
             <motion.button
               whileHover="hover"
               className="gradient-button text-white px-8 py-4 text-xl sm:text-2xl flex items-center gap-6 group"
-              style={{ maxWidth: 'fit-content' }}
+              style={{ maxWidth: "fit-content" }}
             >
               Start Your Recovery
               <motion.div

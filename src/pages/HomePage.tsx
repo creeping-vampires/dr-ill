@@ -1,13 +1,16 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
-import './HomePage.css';
+import "./HomePage.css";
+import LogoBorder from "../components/LogoBorder";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-[#FFFEFA]">
       <Navigation />
-      <Hero/>
+      <LogoBorder position="top" />
+      <Hero />
+      <LogoBorder position="bottom" />
       {/* <section className="py-20 px-4 bg-white mx-4 md:mx-0">
         <div className="max-w-[60%] mx-auto text-center">
           <h2 className="text-5xl font-medium mb-6">ABOUT DR. ILL</h2>
