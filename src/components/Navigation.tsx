@@ -33,16 +33,19 @@ const Navigation = () => {
             <Twitter className="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
           <CopyButton
-            textToCopy="Av8agXfDJZuc1234567890"
-            displayText="Av8agXfDJZuc...."
+            textToCopy="BmfaY5rLBywMZSV4fvCbREe2R7qrExHENMXjUBv36wE6"
+            displayText="BmfaY5rLB...."
           />
-          <motion.button
+          <motion.a
+            href="https://jup.ag/swap/SOL-BmfaY5rLBywMZSV4fvCbREe2R7qrExHENMXjUBv36wE6"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="gradient-button text-white  px-6 py-2.5 xs:px-1 xs:py-1 text-base font-bold"
+            className="gradient-button text-white px-6 py-2.5 xs:px-1 xs:py-1 text-base font-bold"
           >
             Buy Now
-          </motion.button>
+          </motion.a>
         </div>
       </div>
     </nav>
