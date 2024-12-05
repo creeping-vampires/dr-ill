@@ -30,7 +30,10 @@ const LogoBorder: React.FC<LogoBorderProps> = ({ position }) => {
       } py-2 overflow-hidden`}
     >
       <motion.div className="flex justify-center items-center" style={{ x }}>
-        <div className="flex space-x-2 text-gray-500 text-lg ">
+        <div
+          className="flex space-x-2 text-gray-800 text-lg "
+          style={{ color: "black", fontWeight: 600, opacity: 0.5 }}
+        >
           {logos.map((logo, index) => (
             <span key={index} className="opacity-50">
               {logo}
