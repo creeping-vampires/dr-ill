@@ -17,7 +17,7 @@ const Navigation = () => {
         </div>
         <div className="flex items-center gap-2 sm:gap-4">
           <a
-            href="https://t.me/Dr_Ill_bot"
+            href="https://t.me/HypurrFunBot?start=launch_3016"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 hover:bg-gray-100 rounded-lg"
@@ -37,7 +37,7 @@ const Navigation = () => {
             displayText="BmfaY5rLB...."
           />
           <motion.a
-            href="https://jup.ag/swap/SOL-BmfaY5rLBywMZSV4fvCbREe2R7qrExHENMXjUBv36wE6"
+            href="https://app.hypurr.fun/launch/3016"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
