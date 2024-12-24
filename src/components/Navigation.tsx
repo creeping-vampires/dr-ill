@@ -32,10 +32,10 @@ const Navigation = () => {
           >
             <Twitter className="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
-          <CopyButton
+          {/* <CopyButton
             textToCopy="BmfaY5rLBywMZSV4fvCbREe2R7qrExHENMXjUBv36wE6"
             displayText="BmfaY5rLB...."
-          />
+          /> */}
           <motion.a
             href="https://app.hypurr.fun/launch/3016"
             target="_blank"
